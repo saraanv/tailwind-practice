@@ -12,7 +12,10 @@ module.exports = {
           50 : "rgba (255,0,0,0.5)" ,
           100 : "rgba (255,0,0,1)" 
         } 
-      }
+      },
+    spacing : {
+      22 : '90px' ,
+    },
     },
   },
   plugins: [],
