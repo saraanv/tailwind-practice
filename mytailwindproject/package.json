@@ -2,7 +2,7 @@
 
     "scripts": {
         "watch" : "npx tailwindcss -i ./assets/css/style.css -o ./src/css/style.css --watch" ,
-        "build" : "npx tailwindcss -i ./assets/css/style.css -o ./src/css/style.css --minify" ,
+        "build" : "npx tailwindcss -i ./assets/css/style.css -o ./src/css/style.css --minify" , 
         "serve": "live-server ./src"
     } 
 
