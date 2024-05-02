@@ -1,3 +1,27 @@
+@font-face {
+  font-family: Vazir Code;
+
+  src: url('./../fonts/Vazir-Code.eot');
+
+  src: url('./../fonts/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+         url('./../fonts/Vazir-Code.woff') format('woff'),
+         url('./../fonts/Vazir-Code.ttf') format('truetype');
+
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir Code Hack;
+
+  src: url('./../fonts/Vazir-Code-Hack.eot');
+
+  src: url('./../fonts/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+         url('./../fonts/Vazir-Code-Hack.woff') format('woff'),
+         url('./../fonts/Vazir-Code-Hack.ttf') format('truetype');
+
+  font-weight: normal;
+}
+
 /*
 ! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
 */
@@ -572,13 +596,6 @@ video {
   margin-bottom: 90px;
 }
 
-.line-clamp-3 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-}
-
 .flex {
   display: flex;
 }
@@ -638,14 +655,13 @@ video {
   text-align: left;
 }
 
+.font-vazir {
+  font-family: Vazir;
+}
+
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
-}
-
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .text-base {
@@ -653,9 +669,9 @@ video {
   line-height: 1.5rem;
 }
 
-.text-base\/6 {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-extrabold {
@@ -687,10 +703,6 @@ video {
   text-decoration-line: line-through;
 }
 
-.decoration-sky-500\/30 {
-  text-decoration-color: rgb(14 165 233 / 0.3);
-}
-
 .decoration-pink-500 {
   text-decoration-color: #ec4899;
 }
@@ -704,11 +716,6 @@ video {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.subpixel-antialiased {
-  -webkit-font-smoothing: auto;
-  -moz-osx-font-smoothing: auto;
-}
-
 .hover\:text-center:hover {
   text-align: center;
 }
@@ -719,10 +726,4 @@ video {
 
 .hover\:decoration-4:hover {
   text-decoration-thickness: 4px;
-}
-
-@media (min-width: 768px) {
-  .md\:not-italic {
-    font-style: normal;
-  }
 }

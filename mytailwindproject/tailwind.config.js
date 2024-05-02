@@ -13,9 +13,12 @@ module.exports = {
           100 : "rgba (255,0,0,1)" 
         } 
       },
-    spacing : {
+      spacing : {
       22 : '90px' ,
-    },
+      },
+      fontFamily : {
+      vazir : ['Vazir'] ,
+      },
     },
   },
   plugins: [],
