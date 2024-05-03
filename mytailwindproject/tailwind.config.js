@@ -19,6 +19,9 @@ module.exports = {
       fontFamily : {
       vazir : ['Vazir'] ,
       },
+      screens : {
+      "3xl" : "1700px" ,
+      },
     },
   },
   plugins: [],
